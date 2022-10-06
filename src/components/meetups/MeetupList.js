@@ -2,7 +2,7 @@ import React from "react";
 import MeetupItem from "./MeetupItem";
 import "./MeetupList.css";
 
-const MeetupList = ({ meetups }) => {
+const MeetupList = ({meetups}) => {
   return (
     <ul className="list">
       {meetups.map((meetup) => (
@@ -18,5 +18,6 @@ const MeetupList = ({ meetups }) => {
     </ul>
   );
 };
+//  id, image, title, address, description 
 
 export default MeetupList;
